@@ -1,0 +1,76 @@
+body{
+    font-family: 'Festive', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.flexiable-container{
+    display: flex;
+    margin-bottom: 50px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+h1{
+    font-size: 50px;
+}
+.orange{
+    color: tomato;
+}
+#special{
+    border-left: 6px solid;
+    border-image: linear-gradient(tomato,lightsalmon);
+    border-image-slice: 1;
+}
+.link-button{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(231, 21, 186);
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.mission-area{
+    margin-bottom: 50px;
+}
+.misson{
+    text-align: center;
+}
+.third-width{
+    width: 30%;
+    margin-left: 50px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.third-width img{
+    width: 80%;
+}
+#Mission-part{
+    background-color: aquamarine;
+}
+#Vission-part{
+    background-color: antiquewhite;
+}
+#Goals-part{
+    background-color: #ce9a91;
+}
+#develop-area{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px;
+}
+h3{
+    font-size: 60px;
+}
+.footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
